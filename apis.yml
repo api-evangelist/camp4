@@ -1,7 +1,31 @@
 aid: camp4
-name: Camp4
-description: Camp4 is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camp4.png
+name: CAMP4 Therapeutics
+description: >-
+  CAMP4 Therapeutics is a clinical-stage RNA-medicines biotechnology company based in
+  Cambridge, Massachusetts, pioneering a new class of antisense oligonucleotide (ASO)
+  therapeutics designed to increase targeted gene expression. Built on the company's
+  RAP Platform (Regulatory RNA Activating Platform), which combines epigenomics,
+  computational biology, and machine learning to map the regulatory RNA and signaling
+  circuits controlling gene expression, CAMP4 develops first-in-class medicines for
+  diseases caused by insufficient protein expression, with an initial focus on central
+  nervous system and metabolic disorders such as urea cycle disorders and SYNGAP1.
+  Founded by CEO Josh Mandel-Brehm with scientific co-founders Rick Young (Whitehead
+  Institute/MIT) and Len Zon (Boston Children's Hospital/Harvard), CAMP4 is backed by
+  Andreessen Horowitz (a16z). This is a corporate/therapeutics company profile in the
+  API Evangelist network; CAMP4 publishes no public developer API, OpenAPI, or
+  developer portal, so no API artifacts apply.
 url: https://raw.githubusercontent.com/api-evangelist/camp4/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,41 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- RNA Medicines
+- Antisense Oligonucleotide
+- Gene Expression
+- Drug Discovery
+- Therapeutics
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.camp4tx.com/
+- type: About
+  url: https://www.camp4tx.com/about/
+- type: Blog
+  url: https://www.camp4tx.com/category/in-the-news/
+- type: Support
+  url: https://www.camp4tx.com/contact/
+- type: SignUp
+  url: https://www.camp4tx.com/about/join-camp4/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/camp4-therapeutics
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
